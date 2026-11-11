@@ -1,0 +1,5 @@
+cargo new to create a project
+cargo build to compile & produce executable
+cargo run to build & run project
+cargo check to see if it compiles
+
