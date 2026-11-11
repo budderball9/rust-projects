@@ -3,3 +3,5 @@ cargo build to compile & produce executable
 cargo run to build & run project
 cargo check to see if it compiles
 
+using:
+https://doc.rust-lang.org/stable/book/title-page.html
