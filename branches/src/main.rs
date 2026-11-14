@@ -54,5 +54,21 @@ fn main() {
     while number != 5 {
         number += 1;
     }
-    println!("{number}")
+    println!("{number}");
+
+    // looping through collection
+    let a = [10, 20, 30, 40, 50];
+
+    for element in a {
+        println!("the value is: {element}");
+    }
+
+    // range same as python
+    for num in (1..4) {
+        println!("{num}");
+    }
+    // .rev()
+    for num in (1..4).rev() {
+        println!("{num}");
+    }
 }
